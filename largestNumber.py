@@ -1,15 +1,23 @@
 # calculating largest number
-a = 3;
-b = 4;
-
-if a>b: print('A is greater then b')
-elif b>a: print('B is greater then A')
+# a = 3;
+# b = 4;
+#
+# if a>b: print('A is greater then b')
+# elif b>a: print('B is greater then A')
 
 # calculating simple interest
-principle = 100;
-rateOfInterst = 87;
-Time = 60;
+# principle = 100;
+# rateOfInterst = 87;
+# Time = 60;
+#
+# Simpleinterest =  (principle*rateOfInterst*Time)/100;
+#
+# print(Simpleinterest);
 
-Simpleinterest =  (principle*rateOfInterst*Time)/100;
+a = int(input("Enter first number" ));
+b = int (input("Enter second number"));
 
-print(Simpleinterest);
+c = (a + b);
+
+print("The additon of a and b is :",c);
+
