@@ -9,7 +9,7 @@
 # # # #     print("The factorial is : " , factorial)
 # # # #
 # # # #
-# # # # check number is positive or not
+# # # # check number is even or odd
 # # #
 # # # num1 = int(input("Enter your number :"))
 # # #
@@ -17,7 +17,17 @@
 # # #     print(num1," ,Is Even")
 # # # else:
 # # #     print(num1 ," ,Is Odd")
-# #
+
+# Check number is positive or negative
+
+# check number is even or odd
+
+num1 = int(input("Enter your number :"))
+if(num1 >= 0):
+    print(num1," ,Is Positive")
+else:
+    print(num1 ," ,Is Negative")
+
 # # # Simple calculator
 # # num1 = int(input("Enter first number :"))
 # # num2 = int(input("Enter second number :"))
