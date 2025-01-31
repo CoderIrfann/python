@@ -39,3 +39,11 @@
 # reverse string
 # reverseString = "Mohd Irfan"[::-1]
 # print(reverseString)
+
+# convert a string to uppercase and lowercase
+
+UpperCaseStringConvertor = "hi , i am mohd irfan"
+x = UpperCaseStringConvertor.upper()
+y = UpperCaseStringConvertor.lower()
+print(x)
+print(y)
